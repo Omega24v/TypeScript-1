@@ -1,7 +1,6 @@
 {
   "include": [
-    "**/*.js",
-    "**/*.ts",
+    "**/*.ts"
   ],
   "exclude": [
     "node_modules",
@@ -11,7 +10,7 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "commonjs",
-    "allowJs": true,
+    "allowJs": false,
     "strictNullChecks": true,
     "noImplicitAny": true,
     "skipLibCheck": true,
