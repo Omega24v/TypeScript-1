@@ -1,0 +1,21 @@
+{
+  "include": [
+    "**/*.js",
+    "**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ],
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "allowJs": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": true,
+    "strict": true
+  }
+}
